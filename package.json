@@ -2,7 +2,7 @@
   "name": "electron-react-template",
   "productName": "Electron React Template",
   "description": "Hardware Flash and Test Tool for Oxon Devices",
-  "version": "0.8.0",
+  "version": "0.1.0",
   "main": "dist-electron/main/index.js",
   "author": {
     "name": "Oxon AG",
@@ -25,6 +25,7 @@
     "@mui/styled-engine-sc": "^5.11.0",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
+    "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^3.0.0",
     "electron": "^22.0.3",
     "electron-builder": "^22.10.3",
