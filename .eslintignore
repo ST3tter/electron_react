@@ -1,0 +1,7 @@
+node_modules/
+dist/
+dist-electron/
+build/
+.prettierrc.js
+.eslintrc.js
+vite.config.js

@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme';
