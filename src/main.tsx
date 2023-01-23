@@ -4,13 +4,11 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 import App from './App';
 
-setTimeout(() => {
-  ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-    <React.StrictMode>
-      <CssBaseline />
-      <App />
-    </React.StrictMode>
-  );
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <React.StrictMode>
+    <CssBaseline />
+    <App />
+  </React.StrictMode>
+);
 
-  postMessage({ payload: 'removeLoading' }, '*');
-}, 2000);
+postMessage({ payload: 'removeLoading' }, '*');

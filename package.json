@@ -1,6 +1,6 @@
 {
-  "name": "dmct",
-  "productName": "DMCT - Device Manager Config Tool",
+  "name": "electron-react-template",
+  "productName": "Electron React Template",
   "description": "Hardware Flash and Test Tool for Oxon Devices",
   "version": "0.8.0",
   "main": "dist-electron/main/index.js",
