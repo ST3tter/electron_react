@@ -16,6 +16,7 @@ export default defineConfig(({ command }) => {
     resolve: {
       alias: {
         '@': path.join(__dirname, 'src'),
+        '@mui/styled-engine': '@mui/styled-engine-sc',
       },
     },
     plugins: [

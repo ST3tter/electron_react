@@ -1,3 +1,6 @@
+import { createGlobalStyle } from 'styled-components';
+
+export const GlobalStyles = createGlobalStyle`
 *,
 *::after,
 *::before {
@@ -32,9 +35,6 @@ html {
 } */
 
 body {
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
 
@@ -43,6 +43,7 @@ body {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
   overflow: hidden;
+  color: black;
 }
 
 /* width */
@@ -53,23 +54,21 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: none;
+  background: none; 
 }
-
+ 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #303030;
+  background: #303030; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #404040;
+  background: #404040; 
 }
 
 ::-webkit-scrollbar-corner {
-  background: none;
+  background: none; 
 }
 
-.toast-container {
-  font-size: 1.4rem;
-}
+`;
