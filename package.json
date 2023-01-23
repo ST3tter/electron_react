@@ -1,7 +1,7 @@
 {
   "name": "electron-react-template",
   "productName": "Electron React Template",
-  "description": "Hardware Flash and Test Tool for Oxon Devices",
+  "description": "Template for Electron + React + TypeScript + Vite + Electron Builder with MUI and Styled Components",
   "version": "0.1.0",
   "main": "dist-electron/main/index.js",
   "author": {

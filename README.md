@@ -1,2 +1,3 @@
-# electron_react
-Electron template with a React Vite UI
+# Electron React Template
+
+Template for Electron + React + TypeScript + Vite + Electron Builder with MUI and Styled Components
